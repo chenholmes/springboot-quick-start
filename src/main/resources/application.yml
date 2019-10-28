@@ -1,0 +1,13 @@
+server.port: 8080
+
+spring:
+  application:
+    name: springboot-quick-start
+  datasource:
+    url: jdbc:mysql://localhost:3306/quickstart
+    hikari:
+      username: root
+      password: chen1990
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+
