@@ -24,5 +24,9 @@ public class UserController {
         return this.userService.getOne(id);
     }
 
+    public String hello() {
+        return "dev1";
+    }
+
 
 }
